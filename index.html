@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -16,16 +19,180 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
+
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>Web developer</p>
-                <h1>Hi, I'm Sam <br> Vaughan From Lagos.</h1>
+                <h1>Hi, I'm <span>Sam</span> <br> Vaughan From Lagos_</h1>
             </div>
+        </div>
+
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imh.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m a young frontend web developer based in Nigeria, passionate about building clean,<br> responsive,
+                        and user-friendly websites. I specialize in HTML, CSS, and JavaScript to bring <br> digital ideas to
+                        life—whether it's a sleek landing page or a full interactive website. With a strong <br> eye for
+                        design and detail, I aim to create web experiences that not only look good but also work <br>
+                        smoothly across all devices.
+
+                        I'm constantly learning and exploring new tools and frameworks to <br> stay sharp in this
+                        ever-evolving field. Whether working solo or collaborating with a team, I’m committed <br> to writing
+                        clean code, solving problems creatively, and delivering results that matter.
+
+                        Let’s build something great together!</p>
+
+                    <div class="tab-tititles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web developement</span><br> Web app developement</li>
+                            <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                            <li><span>Game developement</span><br> Building 3d/2d games</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2025-Current</span><br> Frontend Dev Training at GOMYCODE as a pro</li>
+                            <li><span>2024</span><br>  Web app developement training at GOMYCODE </li>
+                            <li><span>2023</span><br> Game dev frist training with Unreal Engine</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Frontend Developement in GOMYCODE </li>
+                            <li><span>2024</span><br>Web Developement in GOMYCODE</li>
+                            <li><span>2023</span><br>Game dev with Unity/Unreal Engine </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> 
+                <h2>
+                    Frontend Developement
+                </h2>
+                <p> I craft engaging, responsive, and interactive websites using HTML, CSS, and JavaScript. Specializing in modern frameworks like React and Vue.js, I build fast, accessible, and SEO-optimized interfaces with smooth animations and cross-browser compatibility.</p>
+                  <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>
+                    Web Developement
+                </h2>
+                <p> I specialize in crafting sleek, responsive, and user-friendly websites using HTML, CSS, and JavaScript. Whether it’s a personal portfolio, business site, or landing page, I ensure intuitive design, smooth functionality, and optimized performance. From animations to interactive elements, I build engaging digital experiences tailored to your needs. Let’s create something amazing together! </p>
+                  <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>
+                    Game Developement
+                </h2>
+                <p> I design and develop immersive games using Unity and Unreal Engine. From 2D platformers to open-world 3D experiences, I create engaging mechanics, AI-driven NPCs, multiplayer functionality, and optimized performance across platforms.</p>
+                  <a href="#">Learn more</a>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="download.webp" alt=""  >
+                     <div class="layer">
+                        <h3> Front End</h3>
+                        <p>I build dynamic, interactive features using Vanilla JavaScript, React.js, Vue.js, and modern libraries for smooth performance.</p>
+                     <a href=" #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="OIP (1).webp" alt="">
+                    <div class="layer">
+                        <h3> Web dev</h3>
+                        <p>I build responsive, fast-loading websites from scratch using HTML, CSS, JavaScript, and modern frameworks like React and Vue.js.</p>
+                     <a href=" #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="OIP (2).webp" alt="">
+                    <div class="layer">
+                        <h3> Game Dev</h3>
+                        <p>Using industry-leading engines like Unity and Unreal, I craft high-quality games with smooth performance.</p>
+                     <a href=" #"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contanct">
+        <div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+        <p> <i class="fa-solid fa-phone"></i>0123456789</p>
+        <div class="social-icons">
+            <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="http://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://linkenin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
         
     </div>
+    <div class="contact-right">
+        <form >
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit"></button>
+        </form>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
 </body>
+
 </html>
